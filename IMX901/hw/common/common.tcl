@@ -1,0 +1,23 @@
+#Design related cores
+set COREAHBTOAPB3ver {4.0.106}
+set CoreAPB3ver {4.2.100}
+set COREAXI4INTERCONNECTver {2.9.100}
+set COREAXITOAHBLver {3.6.101}
+set CoreGPIOver {3.2.102}
+set COREJTAGDEBUGver {4.0.100}
+set COREI2Cver {7.2.101}
+set CorePCSver {3.5.106}
+set CoreUARTapbver {5.7.100}
+set CoreSRAMAXIver {1.2.116}
+set MIV_RV32ver {3.1.200}
+set PF_SRAM_AHBL_AXIver {1.2.116}
+set CORERESET_PFver        {2.3.100}
+set PF_DRIver              {1.1.104}
+set PF_CCCver              {2.2.222}
+set PF_TX_PLLver           {2.0.304}
+set PF_XCVR_REF_CLKver     {1.0.103} 
+set PF_XCVR_ERMver         {3.1.206}  
+set PF_INIT_MONITORver     {2.0.308}
+set CoaXpress_TOPver       {3.2.1}
+set SLVS_EC_RXver          {4.4.1}
+

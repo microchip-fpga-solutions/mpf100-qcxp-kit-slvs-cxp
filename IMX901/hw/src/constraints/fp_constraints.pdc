@@ -1,0 +1,37 @@
+# Microchip Physical design constraints file
+
+# Version: 2025.1 2025.1.0.14
+
+# Design Name: PFCXP_DK_TOP 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFire , Die: MPF100T , Package: FCG484 , Speed grade: -1 
+
+# Date generated: Tue Jul  8 18:27:40 2025 
+
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# Core cell constraints
+#
+
+set_location -inst_name CXP_DEVICE_TOP_0/PF_XCVR_ERM_C0_0/I_XCVR/LANE0 -fixed true -x 1596 -y 155
+set_location -inst_name CXP_DEVICE_TOP_0/PF_XCVR_REF_CLK_C0_0/PF_XCVR_REF_CLK_C0_0/I_IO -fixed true -x 1604 -y 155
+set_location -inst_name CXP_DEVICE_TOP_0/PF_XCVR_ERM_C0_0/I_XCVR/LANE1 -fixed true -x 1596 -y 128
+set_location -inst_name CXP_DEVICE_TOP_0/PF_TX_PLL_C0_0/PF_TX_PLL_C0_0/txpll_isnt_0 -fixed true -x 1602 -y 158
+set_location -inst_name CXP_DEVICE_TOP_0/PF_XCVR_ERM_C0_0/I_XCVR/LANE3 -fixed true -x 1597 -y 182
+#set_location -inst_name CXP_DEVICE_TOP_0/PF_XCVR_ERM_C1_0/I_XCVR/LANE1 -fixed true -x 1596 -y 44
+#set_location -inst_name CXP_DEVICE_TOP_0/PF_XCVR_ERM_C1_0/I_XCVR/LANE0 -fixed true -x 1596 -y 17
+#set_location -inst_name CXP_DEVICE_TOP_0/PF_XCVR_ERM_C1_0/I_XCVR/LANE2 -fixed true -x 1597 -y 44
+#set_location -inst_name CXP_DEVICE_TOP_0/PF_XCVR_ERM_C1_0/I_XCVR/LANE3 -fixed true -x 1596 -y 71
+set_location -inst_name CXP_DEVICE_TOP_0/PF_XCVR_ERM_C0_0/I_XCVR/LANE2 -fixed true -x 1596 -y 182

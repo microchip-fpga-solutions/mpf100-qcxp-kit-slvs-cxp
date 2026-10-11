@@ -1,0 +1,300 @@
+# Microchip I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: 2025.1 2025.1.0.14
+
+# Family: PolarFire , Die: MPF100T , Package: FCG484
+
+# Date generated: Thu Jul 10 12:41:43 2025 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io -port_name CAM1_SCL  \
+    -pin_name F3            \
+    -fixed true             \
+    -DIRECTION INOUT
+
+
+set_io -port_name CAM1_SDA  \
+    -pin_name E4            \
+    -fixed true             \
+    -DIRECTION INOUT
+
+
+set_io -port_name CLK50MHZ  \
+    -pin_name P4            \
+    -fixed true             \
+    -io_std LVCMOS33        \
+    -DIRECTION INPUT
+
+
+set_io -port_name {LED[0]}  \
+    -pin_name R6            \
+    -fixed true             \
+    -io_std LVCMOS33        \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {LED[1]}  \
+    -pin_name P6            \
+    -fixed true             \
+    -io_std LVCMOS33        \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {LED[2]}  \
+    -pin_name P8            \
+    -fixed true             \
+    -io_std LVCMOS33        \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {LED[3]}  \
+    -pin_name P7            \
+    -fixed true             \
+    -io_std LVCMOS33        \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LSUC_SERIAL0_DATA_I  \
+    -pin_name J2                \
+    -fixed true                 \
+    -io_std LVCMOS33            \
+    -DIRECTION INPUT
+
+
+set_io -port_name LSUC_SERIAL1_DATA_I  \
+    -pin_name L2                  \
+    -fixed true                   \
+    -io_std LVCMOS33              \
+    -DIRECTION INPUT
+
+
+set_io -port_name LSUC_SERIAL2_DATA_I  \
+    -pin_name J7                       \
+    -fixed true                        \
+    -io_std LVCMOS33                   \
+    -DIRECTION INPUT
+
+
+set_io -port_name LSUC_SERIAL3_DATA_I  \
+    -pin_name K8                       \
+    -fixed true                        \
+    -io_std LVCMOS33                   \
+    -DIRECTION INPUT
+
+
+set_io -port_name SLVS_EC_RSTN  \
+    -pin_name C10               \
+    -fixed true                 \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name SLVS_EC_XCE  \
+    -pin_name B8               \
+    -fixed true                \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name SLVS_EC_XMASTER  \
+    -pin_name V9                   \
+    -fixed true                    \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name USR_RESET  \
+    -pin_name P9             \
+    -fixed true              \
+    -io_std LVCMOS33         \
+    -DIRECTION INPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+#Ports using Dedicated Pins
+
+#
+
+set_io -port_name LANE0_RXD_N_0  \
+    -pin_name M21                \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE0_RXD_N_0_0  \
+    -pin_name A19                  \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE0_RXD_P_0  \
+    -pin_name M22                \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE0_RXD_P_0_0  \
+    -pin_name A20                  \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE0_TXD_N  \
+    -pin_name P21              \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LANE0_TXD_P  \
+    -pin_name P22              \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LANE1_RXD_N_0  \
+    -pin_name T21                \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE1_RXD_N_0_0  \
+    -pin_name C19                  \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE1_RXD_P_0  \
+    -pin_name T22                \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE1_RXD_P_0_0  \
+    -pin_name C20                  \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE1_TXD_N  \
+    -pin_name V21              \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LANE1_TXD_P  \
+    -pin_name V22              \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LANE2_RXD_N_0  \
+    -pin_name W19                \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE2_RXD_N_0_0  \
+    -pin_name F21                  \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE2_RXD_P_0  \
+    -pin_name W20                \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE2_RXD_P_0_0  \
+    -pin_name F22                  \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE2_TXD_N  \
+    -pin_name Y21              \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LANE2_TXD_P  \
+    -pin_name Y22              \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LANE3_RXD_N_0  \
+    -pin_name AA19               \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE3_RXD_N_0_0  \
+    -pin_name L19                  \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE3_RXD_P_0  \
+    -pin_name AA20               \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE3_RXD_P_0_0  \
+    -pin_name L20                  \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE3_TXD_N  \
+    -pin_name AB21             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LANE3_TXD_P  \
+    -pin_name AB22             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name REF_CLK_PAD_N  \
+    -pin_name R20                \
+    -DIRECTION INPUT
+
+
+set_io -port_name REF_CLK_PAD_P  \
+    -pin_name R19                \
+    -DIRECTION INPUT
+
+
+set_io -port_name TCK  \
+    -pin_name F8       \
+    -DIRECTION INPUT
+
+
+set_io -port_name TDI  \
+    -pin_name G8       \
+    -DIRECTION INPUT
+
+
+set_io -port_name TDO  \
+    -pin_name F6       \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name TMS  \
+    -pin_name F7       \
+    -DIRECTION INPUT
+
+
+set_io -port_name TRSTB  \
+    -pin_name G7         \
+    -DIRECTION INPUT
+
+
